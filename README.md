@@ -9,8 +9,17 @@
   The method can take up to two numbers, separated by commas, and will return their sum. 
 	for example “” or “1” or “1,2” as inputs.
 	(for an empty string it will return 0) 
+	
+	Sample Invocations:
+		int value = add(""); //value is 0
+		int value = add("1"); //value is 1
+		int value = add("1,2"); //value is 3
+		
 
 ## 2. Allow the Add method to handle an unknown amount of numbers
+
+	Sample Invocations:
+		int value = add("1,2,3,4,5"); //value is 15
 
 ## 3.  Allow the Add method to handle new lines between numbers (instead of commas).
 	the following input is ok: “1\n2,3” (will equal 6)
